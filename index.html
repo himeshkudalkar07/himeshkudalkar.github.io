@@ -1,23 +1,84 @@
+<!DOCTYPE html>
 <html>
 <head>
 <title>Himesh Kudalkar</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.card {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 12px;
+}
+
+a {
+    color: #00ffff;
+    text-decoration: none;
+}
+</style>
 </head>
+
 <body>
-<h1>Himesh Kudalkar</h1>
-<p>AI & Data Science Student | Machine Learning Enthusiast</p>
 
-<h2>Projects</h2>
-<ul>
-<li>Kaggle House Prices Prediction using LightGBM</li>
-<li>Customer Purchase Behaviour Analysis</li>
-</ul>
+<div class="container">
 
-<h2>About Me</h2>
-<p>I am an AI & Data Science student passionate about machine learning and data analytics.</p>
+    <!-- Your Photo -->
+    <img src="myphoto.jpg" class="profile-pic">
 
-<h2>Contact</h2>
-<p>LinkedIn: https://www.linkedin.com/in/himesh-kudalkar-7838042b2/</p>
-<p>GitHub: https://github.com/himeshkudalkar07</p>
+    <h1>Himesh Kudalkar</h1>
+    <p>AI & Data Science Student | Machine Learning Enthusiast</p>
+
+    <div class="card">
+        <h2>Projects</h2>
+        <p>Kaggle House Prices Prediction using LightGBM</p>
+        <p>Customer Purchase Behaviour Analysis</p>
+    </div>
+
+    <div class="card">
+        <h2>About Me</h2>
+        <p>I am passionate about machine learning, data science and building real-world AI solutions.</p>
+    </div>
+
+    <div class="card">
+        <h2>Contact</h2>
+        <p>
+            <a href="https://www.linkedin.com/in/himesh-kudalkar-7838042b2">LinkedIn</a> |
+            <a href="https://github.com/himeshkudalkar07">GitHub</a>
+        </p>
+    </div>
+
+</div>
+
 </body>
 </html>
-
